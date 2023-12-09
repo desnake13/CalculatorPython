@@ -36,14 +36,11 @@ while True:
 
          if scelta == "1":
              print(num1, "+", num2, "=", addizione(num1, num2))
-
-         if scelta == "2":
+         elif scelta == "2":
              print(num1, "-", num2, "=", sottrazione(num1, num2))
-
-         if scelta == "3":
+         elif scelta == "3":
              print(num1, "*", num2, "=", moltiplicazione(num1, num2))
-
-         if scelta == "4":
+         elif scelta == "4":
              print(num1, "+", num2, "=", divisione(num1, num2))
 
          restart = input("Vuoi fare ancora calcoli? (si/no): ")
